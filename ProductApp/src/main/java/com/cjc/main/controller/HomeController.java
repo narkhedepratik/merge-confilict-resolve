@@ -15,4 +15,10 @@ public class HomeController {
 		return new ArrayList<>();
 	}
 
+  @PostMapping("/save-Product")
+  public String saveProduct()
+  {
+      return "Product will be save latter";
+  }
+
 }
